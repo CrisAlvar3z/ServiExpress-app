@@ -2,8 +2,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 export default function RootLayout({ children }) {
   return (
+    /* eslint no-use-before-define: 0 */  // --> OFF
     <html>
-
       <head>
         <title>{}</title>
       </head>
