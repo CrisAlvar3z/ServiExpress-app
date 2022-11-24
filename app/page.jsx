@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+import Link from 'next/link'
 import { useEffect, useState } from 'react';
 import CentroImg from './Images/Centro';
 
@@ -22,8 +22,10 @@ const page =  () => {
     <>
       <section className='container'>
         <div className='d-flex align-items-center justify-content-between'>
-          <div className='display-1'>Centro Medico Galenos</div>
-          <button style={{ }} className='btn btn-primary'> Resevar Hora </button>
+          <div className='display-1'>Taller mecanico ServiExpress</div> 
+            <Link className='btn btn-primary' href="/servicios">
+              Resevar Servicio
+            </Link>
         </div>
         <div className="row align-items-center">
           <div className='col-12 col-xl-7'>
